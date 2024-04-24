@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-image: url('./assets//hero_img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (min-width: 1280px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1279px) {
+    body {
+        overflow: auto;
+    }
+}
